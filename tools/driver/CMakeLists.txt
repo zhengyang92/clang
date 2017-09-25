@@ -4,7 +4,7 @@ set( LLVM_LINK_COMPONENTS
   CodeGen
   Core
   IPO
-  InstCombine
+#  InstCombine
   Instrumentation
   MC
   MCParser
