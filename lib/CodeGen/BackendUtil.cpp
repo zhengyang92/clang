@@ -251,7 +251,7 @@ static void addMemorySanitizerPass(const PassManagerBuilder &Builder,
     PM.add(createReassociatePass());
     PM.add(createLICMPass());
     PM.add(createGVNPass());
-    PM.add(createInstructionCombiningPass());
+    //    PM.add(createInstructionCombiningPass());
     PM.add(createDeadStoreEliminationPass());
   }
 }
